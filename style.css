@@ -1,0 +1,58 @@
+h1 {
+    color: brown;
+}
+
+
+.header{
+background-color: aqua;
+display:flex;
+justify-content: space-between;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+    background-color: palegreen;
+}
+a:link{
+    color:blue;
+}
+a:visited{
+    color:orangered;
+}
+.menu{
+    margin-right: 70px;
+    margin-top: 25px;
+}
+.menu a{
+    margin-left:15px;
+
+}
+.item{
+    position:relative;
+    
+}
+.item p{
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-700%);
+   opacity:0;
+}
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+    opacity:0.000001;
+    background-color: palegreen;
+}
+.item:hover a{
+    background-color: peru;
+}
